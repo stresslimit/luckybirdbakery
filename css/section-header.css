@@ -6,5 +6,19 @@
   text-align: center;
 }
 .logo {
-  width: 15em;
+  width: 240px;
+  /*position: absolute;
+  top: 20px;
+  left: 50%;
+  margin-left: -120px;
+  z-index: 1;*/
+}
+@media (max-width:420px) {
+  .logo {
+    width: 200px;
+  }
+}
+.home-banner {
+  width: 100%;
+  height: auto;
 }

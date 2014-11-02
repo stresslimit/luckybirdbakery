@@ -10,9 +10,10 @@
 <body>
 
 
-  <header class="header-main">
-    <!-- <h1 class="hide">{{ site.title }}</h1> -->
+  <header class="header-main" style="background-image:url({{ posts.first.assets.first.url }})">
+    <h1 class="hide">{{ site.title }}</h1>
     <img class="logo" src="/assets/logo.svg">
+    <!-- <img class="home-banner" src="{{ posts.first.assets.first.url }}"> -->
   </header>
 
 
@@ -37,8 +38,14 @@
   {% if page.slug == 'contact' %}
 
       <div class="contact section">
-        <h2>{{ pages['contact'].title }}</h2>
-        {{ pages['contact'].body }}
+        <h2>{{ page.title }}</h2>
+        {{ page.body }}
+      </div>
+
+  {% elsif page.slug == 'footer' %}
+
+      <div class="footer section">
+        {{ page.body }}
       </div>
 
   {% else %}

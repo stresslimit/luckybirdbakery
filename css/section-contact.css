@@ -5,13 +5,13 @@
   .contact h2 {
     position: absolute;
     left: 120px;
-    top: 60px;
+    top: 65px;
   }
 }
 @media (min-width:992px) {
   .contact h2 {
     left: 150px;
-    top: 80px;
+    top: 90px;
   }
   .contact h3 {
     position: relative;
