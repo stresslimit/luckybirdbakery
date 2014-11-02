@@ -2,6 +2,9 @@
 dev:
 	siteleaf server
 
+deploy:
+	siteleaf push theme
+
 build: build-css build-js
 
 build-js:
