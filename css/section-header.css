@@ -1,0 +1,10 @@
+.header-main {
+  background: url('/assets/bg-header.jpg') 50% 0 no-repeat;
+  background-size: cover;
+  min-height: 300px;
+  padding-top: 2em;
+  text-align: center;
+}
+.logo {
+  width: 15em;
+}

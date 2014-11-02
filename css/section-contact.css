@@ -1,0 +1,20 @@
+.contact {
+  position: relative;
+}
+@media (min-width:768px) {
+  .contact h2 {
+    position: absolute;
+    left: 120px;
+    top: 60px;
+  }
+}
+@media (min-width:992px) {
+  .contact h2 {
+    left: 150px;
+    top: 80px;
+  }
+  .contact h3 {
+    position: relative;
+    left: 40px;
+  }
+}
