@@ -17,8 +17,8 @@ h1, h2, h3 {
   margin-top: 0.5em;
   text-transform: uppercase;
 }
-a {
-  color:magenta;
+a, a:link, a:visited {
+  color: #ab0a34;
 }
 img {
   max-width: 100%;
